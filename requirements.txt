@@ -1,2 +1,4 @@
-fastmcp
+fastapi
 uvicorn
+PyYAML
+python-dotenv
