@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent
 
 # 1. Start with hardcoded defaults: lowest precedence.
 config = {
